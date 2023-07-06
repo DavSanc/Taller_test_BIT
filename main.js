@@ -15,3 +15,22 @@ function vaAsobrevivir(numeroDragones, numeroBalas) {
         return false
     }
 }
+
+/** 2. Sumar valores de una lista Escribe una función que tome una lista de números 
+ * y devuelva la suma de los números. Los números pueden ser negativos o no enteros. 
+ * Si la lista no contiene ningún número, debe devolver 0.
+Resultados esperados */
+
+function sumarLista (numeros) {
+    let suma = 0;
+    for (let i = 0; i< numeros.length; i++)
+    suma += numeros [i];
+}
+
+    return suma;
+
+const lista1 = [1, 5.2, 4, 0, -1];
+
+const resultado1 = sumarLista(lista1);
+
+console.log(resultado1);
