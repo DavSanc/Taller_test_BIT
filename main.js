@@ -6,15 +6,15 @@
 //por un par de poderosos dragones. 
 //cada dragón necesita 2 balas para ser derrotado, nuestro héroe no tiene idea de cuántas balas debe cargar.
 
-function vaAsobrevivir(numeroDragones, numeroBalas) {
-    let balasNecesarias = numeroDragones * 2;
+// function vaAsobrevivir(numeroDragones, numeroBalas) {
+//     let balasNecesarias = numeroDragones * 2;
 
-    if (numeroBalas >= balasNecesarias){
-        return true;
-    } else{
-        return false
-    }
-}
+//     if (numeroBalas >= balasNecesarias){
+//         return true;
+//     } else{
+//         return false
+//     }
+// }
 
 /** 2. Sumar valores de una lista Escribe una función que tome una lista de números 
  * y devuelva la suma de los números. Los números pueden ser negativos o no enteros. 
@@ -29,8 +29,14 @@ function sumarLista (numeros) {
 
     return suma;
 
-const lista1 = [1, 5.2, 4, 0, -1];
-
-const resultado1 = sumarLista(lista1);
-
+let lista1 = [1, 5.2, 4, 0, -1];
+let resultado1 = sumarLista(lista1);
 console.log(resultado1);
+
+let lista2 = [];
+let resultado2 = sumarLista(lista2);
+console.log(resultado2);
+
+let lista3 = [-2.398];
+let resultado3 = sumarLista(lista3);
+console.log(resultado3);
